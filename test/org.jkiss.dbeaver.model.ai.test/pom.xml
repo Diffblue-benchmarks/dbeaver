@@ -28,5 +28,13 @@
     <artifactId>org.jkiss.dbeaver.model.ai.test</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>eclipse-test-plugin</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>com.diffblue.cover</groupId>
+            <artifactId>cover-annotations</artifactId>
+            <version>1.7.0</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 
 </project>
