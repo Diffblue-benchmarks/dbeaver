@@ -77,7 +77,7 @@
         <module>org.jkiss.dbeaver.ext.denodo</module>
         <module>org.jkiss.dbeaver.ext.altibase</module>
         <module>org.jkiss.dbeaver.ext.gaussdb</module>
-        
+
         <module>org.jkiss.dbeaver.tasks.native</module>
 
         <module>org.jkiss.dbeaver.data.office</module>
@@ -94,6 +94,11 @@
         <module>org.jkiss.dbeaver.headless</module>
         <module>org.jkiss.dbeaver.osgi.test.runner</module>
     </modules>
+
+    <build>
+        <sourceDirectory>${project.basedir}/src</sourceDirectory>
+        <testSourceDirectory>${project.basedir}/src/test/java</testSourceDirectory>
+    </build>
 
     <profiles>
         <profile>
